@@ -5,11 +5,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Card from './Cards/CardUI'
+import Cards from './Cards/Cards'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card />
+    <Cards />
   </React.StrictMode>,
   document.getElementById('root')
 );

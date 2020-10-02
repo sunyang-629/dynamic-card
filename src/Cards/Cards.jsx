@@ -10,9 +10,9 @@ class Cards extends Component {
     return (
       <div className="container-fluid d-flex justify-content-center">
         <div className="row">
-          <div className="col-md-4"><Card imgsrc={imgDeoxysNormal} /></div>
-          <div className="col-md-4"><Card imgsrc={imgDeoxysAttack}/></div>
-          <div className="col-md-4"><Card imgsrc={imgDeoxysDefense}/></div>
+          <div className="col-md-4"><Card imgsrc={imgDeoxysNormal} title="normal"/></div>
+          <div className="col-md-4"><Card imgsrc={imgDeoxysAttack} title="attack"/></div>
+          <div className="col-md-4"><Card imgsrc={imgDeoxysDefense} title="defense"/></div>
         </div>
       </div>
     )

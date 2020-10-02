@@ -9,7 +9,7 @@ const Card = props => {
         <img className="card-img-top" src={props.imgsrc} alt="deoxys-normal" />
       </div>
       <div className="card-body text-dark">
-        <h4 className="card-title">Card Title</h4>
+        <h4 className="card-title">{props.title}</h4>
         <p className="card-text text-secondary">lorem21</p>
         <a href="#" className="btn btn-outline-success">go anywhere</a>
       </div>
